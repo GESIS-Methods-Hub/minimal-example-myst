@@ -11,3 +11,10 @@ git clone git@github.com:GESIS-Methods-Hub/minimal-example-myst.git
 ```bash
 mamba install -c conda-forge myst-parser
 ```
+
+## Manual convertion
+
+```bash
+myst-docutils-html \
+    index.myst
+```
